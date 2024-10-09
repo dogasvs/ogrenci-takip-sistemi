@@ -17,7 +17,7 @@ export default function SignUpPage() {
         <label htmlFor="lastName">Soyadınız </label>
         <input type="text" name="lastname" placeholder="soyadınız" />  <br />
         <label htmlFor="email">E-posta Adresiniz</label>
-        <input type="email" name="email" placeholder="email" />  <br />
+        <input type="email" name="email" placeholder="username@gmail.com" />  <br />
         <label htmlFor="password">Şifreniz</label>
         <input type="password" name="password" placeholder="********" />
         <button formAction={signUp}>Kayıt Ol</button>
