@@ -28,9 +28,9 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
-.loginLayout {
+.signUpLayout {
   background-color: cornflowerblue;
-  background-image: url(/img/login.png);
+  background-image: url(/img/signup.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding-inline: 100px;
@@ -38,14 +38,17 @@ p, h1, h2, h3, h4, h5, h6 {
   height: 800px;
 }
 
-.loginForm {
+.signUpForm {
   width: 500px;
   display: flex;
   flex-direction: column;
   background: rgba(255, 255, 255, 0.5);
-  padding: 60px;
+  padding: 30px;
   border-radius: 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  position: absolute;
+  right: 100px;
+  top: 30px;
 
   label {
     margin-bottom: 12px;
