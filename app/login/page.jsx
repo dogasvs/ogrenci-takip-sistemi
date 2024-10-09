@@ -10,14 +10,14 @@ export default function LoginPage() {
    <form className="loginForm">
       <div className="logo">
         <Logo /> 
-        <h1>Login</h1>
+        <h1>Giriş Yap</h1>
       </div>
-      <label htmlFor="email">Email</label>
+      <label htmlFor="email">E-posta</label>
       <input id="email" name="email" type="email" required placeholder='username@gmail.com' />
-      <label htmlFor="password">Password</label>
-      <input id="password" name="password" type="password" required placeholder='Password' />
-      <button formAction={login}>Log in</button>
-      <p>Or Continue With</p>
+      <label htmlFor="password">Şifre</label>
+      <input id="password" name="password" type="password" required placeholder='*******' />
+      <button formAction={login}>Giriş yap</button>
+      <p>Ya da hesaplarla devam edin</p>
       <div className="withSocialMedia">
         <Google />
         <Github />
