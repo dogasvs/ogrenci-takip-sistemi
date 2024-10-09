@@ -1,6 +1,9 @@
 import Logo from '@/svgs/logo/page';
 import { login } from './action'
 import "./login.css";
+import Github from '@/svgs/github/page';
+import Google from '@/svgs/google/page';
+import Facebook from '@/svgs/facebook/page';
 
 export default function LoginPage() {
   return (
@@ -15,6 +18,11 @@ export default function LoginPage() {
       <input id="password" name="password" type="password" required placeholder='Password' />
       <button formAction={login}>Log in</button>
       <p>Or Continue With</p>
+      <div className="withSocialMedia">
+        <Google />
+        <Github />
+        <Facebook />
+      </div>
     </form>
   );
 }
