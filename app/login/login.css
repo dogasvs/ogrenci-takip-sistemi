@@ -44,7 +44,36 @@ p, h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   background: rgba(255, 255, 255, 0.5);
   padding: 60px;
-  border-radius: 10px
+  border-radius: 10px;
+
+  label {
+    margin-bottom: 12px;
+    color: #333333;
+  }
+
+  input {
+    padding: 10px 16px;
+    border-color: transparent;
+    border-radius: 7px;
+    margin-bottom: 16px;
+  }
+
+  input::placeholder {
+    color: #BFBFBF;
+    font-weight: 700;
+  }
+
+  button {
+    background-color: #4983ec;
+    border: transparent;
+    padding-block: 6px;
+    color: #FFF;
+    border-radius: 7px;
+  }
+
+  button:hover {
+    background-color: #789dde;
+  }
 }
 
 .logo {
