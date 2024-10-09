@@ -7,7 +7,7 @@ export default function SignUpPage() {
       <input type="text" name="lastname" placeholder="soyadınız" />  <br />
       <input type="email" name="email" placeholder="email" />  <br />
       <input type="password" name="password" placeholder="********" />
-      <button>kayıt ol</button> 
+      <button formAction={signUp}>Sign up</button>
     </form>
   )
 }
